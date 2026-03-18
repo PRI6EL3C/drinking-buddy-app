@@ -3,8 +3,8 @@
   publish = "dist"
 
 [build.environment]
-  REACT_APP_SUPABASE_URL = "https://fyhkozglaisistmcwypr.supabase.co"
-  REACT_APP_SUPABASE_ANON_KEY = "sb_publishable_UOByXo8GIcxERAbhEkvSIg_PefRcaWy"
+  VITE_REACT_APP_SUPABASE_URL = "https://fyhkozglaisistmcwypr.supabase.co"
+  VITE_REACT_APP_SUPABASE_ANON_KEY = "sb_publishable_UOByXo8GIcxERAbhEkvSIg_PefRcaWy"
 
 [[redirects]]
   from = "/*"
