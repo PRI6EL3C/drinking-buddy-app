@@ -94,14 +94,7 @@ const RegisterForm = ({ onRegister, onSwitchToLogin }) => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    if (formData.interests.length < 2) {
-      setErrors({ interests: 'Изберете поне два интереса за по-добри съвпадения' });
-      return;
-    }
-    if (!formData.photo) {
-      setErrors({ photo: 'Качете снимка за профил' });
-      return;
-    }
+    // Премахнахме изискванията за тестване
     onRegister(formData);
   };
 
